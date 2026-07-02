@@ -154,7 +154,7 @@ task.spawn(function()
 
             local vk = MOVE_KEYS[math.random(1, #MOVE_KEYS)]
             tapKey(vk, PULSE_SECONDS)
-            task.wait(math.random(650, 1200) / 100)
+                                                                        task.wait(300) -- 5 minutes
         else
             task.wait(0.1)
         end
